@@ -1,0 +1,103 @@
+/*Universal Styling*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+html {
+    font-size: 10px;
+    background: hsl(212, 85%, 50%);
+    color: #fff;
+}
+
+/*Navbar Styling*/
+nav {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-direction: row;
+   height: 100px; 
+}
+
+nav img {
+    margin-left: 100px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin-left: 250px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin-left: 70px;
+}
+
+nav ul li a:hover {
+    opacity: .7;
+}
+
+/*Main Header*/
+.header_main {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 400px 1fr;
+    margin-left: 100px;
+}
+
+.header_main_h1 {
+    font-size: 63px;
+}
+
+.header_main_p {
+    font-size: 20px;
+    margin-top: 10px;
+    width: 80%;
+}
+
+.header_main_content button {
+    font-size: 25px;
+    padding: 14px 65px;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 50px;
+    background-color: gray;
+}
+
+.cta:hover {
+    opacity: .7;
+}
+
+
+/*Social media Icon Styling*/
+.social_media {
+   padding-left: 30px;
+   padding-bottom: 50px; 
+}
+
+.social_media a i{
+    margin-left: 10px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding-top: 8px;
+    padding-left: 7px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.social_media a i:hover {
+    opacity: .10;
+}
